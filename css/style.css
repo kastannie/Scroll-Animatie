@@ -37,7 +37,7 @@ img {
 }
 
 .header {
-  background-color: rgb(32, 38, 75);
+  background-color: rgb(38, 44, 85);
   padding: 8px 0;
 }
 
@@ -62,4 +62,15 @@ img {
 .logo {
   filter: invert(1);
   margin-top: 8px;
+}
+
+.button {
+    color:rgb(255, 157, 29);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: medium;
+    border-radius: 15%;
+    width: 120px;
+    margin: 5px;
+    border-style: none;
+    background-color:rgb(16, 12, 59)
 }
