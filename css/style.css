@@ -35,3 +35,27 @@ html {
     margin: 0 auto;
     max-width: 1200px;
   }
+
+  .header {
+    background-color:rgb(16, 26, 82);
+    padding: 8px 0;
+    box-shadow: 0 8px 12px -1px rgba(0, 0, 0, 0.5);
+  }
+  
+  .header__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .navigation {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
