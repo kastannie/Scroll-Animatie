@@ -66,19 +66,21 @@ img {
 
 .animation {
   height: 100vh;
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
   position: relative;
   overflow: hidden;
 }
 
 .paper-plane {
   height: 100px;
-  
+  position: absolute;
+  top: 50%;
+  left: 0%;
 }
 
 footer {
   align-items: center;
-  background-color:rgb(38, 44, 85);
+  background-color: rgb(38, 44, 85);
   color: white;
   height: 60px;
   justify-content: center;
