@@ -18,6 +18,23 @@ header h1 {
   font-size: 60px;
 }
 
+.bg-music {
+  position: absolute;
+  top: 64%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: transparent;
+  color: black;
+  font-size: 78px;
+  border: none;
+  display: block;
+  opacity: .3;
+}
+
 .animation {
   height: 100vh;
   background-image: linear-gradient(
